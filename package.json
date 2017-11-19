@@ -1,7 +1,7 @@
 {
-  "name": "teammanager",
+  "name": "collab",
   "version": "1.0.0",
-  "description": "Team manager for small team and tasks",
+  "description": "Team collaboration system",
   "main": "app.js",
   "directories": {
     "test": "tests"
@@ -12,11 +12,11 @@
   },
   "keywords": [
     "Team",
-    "manager",
+    "collab",
     "MEAN",
     "nodejs"
   ],
-  "author": "weavebytes",
+  "author": "barinder",
   "license": "GPL-3.0",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -29,6 +29,7 @@
     "mongoose": "^4.12.2",
     "nodemailer": "^4.2.0",
     "nodemailer-mailgun-transport": "^1.3.5",
+    "readline-sync": "^1.4.7",
     "winston": "^2.4.0",
     "xoauth2": "^1.2.0"
   },
